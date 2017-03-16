@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Toolbar toolbar2;
+    String text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,5 +46,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+    private void changeTextmsg(String msg)
+    {
+        text="my_message";
     }
 }
