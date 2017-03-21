@@ -5,4 +5,5 @@ package com.example.hp.searchbar;
  */
 public class jjk {
   String msg="Checking branch one";
+   String msg2="Checking branch three";
 }
