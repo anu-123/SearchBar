@@ -7,6 +7,6 @@ public class SecondFile {
     public void myFunction() {
         int i = 10;
         int j = 10 + i;
-        int y=i+j;
+        int y=j+j;
     }
 }
