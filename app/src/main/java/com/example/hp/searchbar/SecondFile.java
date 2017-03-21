@@ -8,5 +8,7 @@ public class SecondFile {
         int i = 10;
         int j = 10 + i;
         int y=j+j;
+        //currently branch new created
+        int branch=1;
     }
 }
